@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		AA639B5C2812A7ED004EC876 /* merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA639B5B2812A7ED004EC876 /* merge.swift */; };
 		AA639B5D2812A7F3004EC876 /* merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA639B5B2812A7ED004EC876 /* merge.swift */; };
+		AA6898BA28179E4B0042DD0C /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA6898B928179E4B0042DD0C /* lose.mp3 */; };
+		AA6898BB28179E4B0042DD0C /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA6898B928179E4B0042DD0C /* lose.mp3 */; };
 		AA6ABF00280D38FF003985F3 /* game_variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ABEFF280D38FF003985F3 /* game_variable.swift */; };
 		AA6ABF01280D38FF003985F3 /* game_variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ABEFF280D38FF003985F3 /* game_variable.swift */; };
 		AA6ABF03280D3FAB003985F3 /* merge_check.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ABF02280D3FAB003985F3 /* merge_check.swift */; };
 		AA6ABF04280D3FAB003985F3 /* merge_check.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6ABF02280D3FAB003985F3 /* merge_check.swift */; };
+		AA8F1FB82816A35900FA207F /* is_moved.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F1FB72816A35900FA207F /* is_moved.swift */; };
+		AA8F1FB92816A46100FA207F /* is_moved.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F1FB72816A35900FA207F /* is_moved.swift */; };
+		AA8F1FBB2816A47900FA207F /* after_moved.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F1FBA2816A47900FA207F /* after_moved.swift */; };
+		AAEFD33F281779220018AC00 /* isfull.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEFD33E281779220018AC00 /* isfull.swift */; };
+		AAF313C42816DA1700B7D491 /* battle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAF313C32816DA1700B7D491 /* battle.mp3 */; };
+		AAF313C52816DA1700B7D491 /* battle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAF313C32816DA1700B7D491 /* battle.mp3 */; };
 		AAF8F7DA280D023700020A4D /* number_mergeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8F7CA280D023500020A4D /* number_mergeApp.swift */; };
 		AAF8F7DB280D023700020A4D /* number_mergeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8F7CA280D023500020A4D /* number_mergeApp.swift */; };
 		AAF8F7DC280D023700020A4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF8F7CB280D023500020A4D /* ContentView.swift */; };
@@ -23,8 +31,13 @@
 
 /* Begin PBXFileReference section */
 		AA639B5B2812A7ED004EC876 /* merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge.swift; sourceTree = "<group>"; };
+		AA6898B928179E4B0042DD0C /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lose.mp3; path = Assets.xcassets/lose.dataset/lose.mp3; sourceTree = "<group>"; };
 		AA6ABEFF280D38FF003985F3 /* game_variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game_variable.swift; sourceTree = "<group>"; };
 		AA6ABF02280D3FAB003985F3 /* merge_check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge_check.swift; sourceTree = "<group>"; };
+		AA8F1FB72816A35900FA207F /* is_moved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = is_moved.swift; sourceTree = "<group>"; };
+		AA8F1FBA2816A47900FA207F /* after_moved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = after_moved.swift; sourceTree = "<group>"; };
+		AAEFD33E281779220018AC00 /* isfull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isfull.swift; sourceTree = "<group>"; };
+		AAF313C32816DA1700B7D491 /* battle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battle.mp3; sourceTree = "<group>"; };
 		AAF8F7CA280D023500020A4D /* number_mergeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number_mergeApp.swift; sourceTree = "<group>"; };
 		AAF8F7CB280D023500020A4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAF8F7CC280D023700020A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,10 +76,15 @@
 		AAF8F7C9280D023500020A4D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AAEFD33E281779220018AC00 /* isfull.swift */,
+				AA8F1FB72816A35900FA207F /* is_moved.swift */,
 				AA639B5B2812A7ED004EC876 /* merge.swift */,
 				AA6ABF02280D3FAB003985F3 /* merge_check.swift */,
 				AAF8F7CA280D023500020A4D /* number_mergeApp.swift */,
 				AAF8F7CB280D023500020A4D /* ContentView.swift */,
+				AA6898B928179E4B0042DD0C /* lose.mp3 */,
+				AAF313C32816DA1700B7D491 /* battle.mp3 */,
+				AA8F1FBA2816A47900FA207F /* after_moved.swift */,
 				AA6ABEFF280D38FF003985F3 /* game_variable.swift */,
 				AAF8F7CC280D023700020A4D /* Assets.xcassets */,
 			);
@@ -169,7 +187,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF313C42816DA1700B7D491 /* battle.mp3 in Resources */,
 				AAF8F7DE280D023700020A4D /* Assets.xcassets in Resources */,
+				AA6898BA28179E4B0042DD0C /* lose.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF313C52816DA1700B7D491 /* battle.mp3 in Resources */,
 				AAF8F7DF280D023700020A4D /* Assets.xcassets in Resources */,
+				AA6898BB28179E4B0042DD0C /* lose.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +213,10 @@
 				AAF8F7DC280D023700020A4D /* ContentView.swift in Sources */,
 				AA6ABF03280D3FAB003985F3 /* merge_check.swift in Sources */,
 				AA6ABF00280D38FF003985F3 /* game_variable.swift in Sources */,
+				AA8F1FB82816A35900FA207F /* is_moved.swift in Sources */,
 				AAF8F7DA280D023700020A4D /* number_mergeApp.swift in Sources */,
+				AA8F1FBB2816A47900FA207F /* after_moved.swift in Sources */,
+				AAEFD33F281779220018AC00 /* isfull.swift in Sources */,
 				AA639B5C2812A7ED004EC876 /* merge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +228,7 @@
 				AAF8F7DD280D023700020A4D /* ContentView.swift in Sources */,
 				AA6ABF04280D3FAB003985F3 /* merge_check.swift in Sources */,
 				AA6ABF01280D38FF003985F3 /* game_variable.swift in Sources */,
+				AA8F1FB92816A46100FA207F /* is_moved.swift in Sources */,
 				AAF8F7DB280D023700020A4D /* number_mergeApp.swift in Sources */,
 				AA639B5D2812A7F3004EC876 /* merge.swift in Sources */,
 			);
